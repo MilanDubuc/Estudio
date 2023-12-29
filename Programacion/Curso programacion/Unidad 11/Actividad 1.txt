@@ -1,0 +1,18 @@
+interface publica Liquido
+	metodo publico Liquido()
+fin interface
+
+clase publica Agua implementa Liquido
+	metodo publico fluido()
+	// codigo para simular liquido agua
+	fin metodo
+fin clase
+
+clase publica Plasticola implementa Liquido
+	metodo publico fluido
+	// codigo para simular liquido plasticola
+	fin metodo
+fin clase
+
+
+Los liquidos se comportan en general de la misma forma pero con distintas variantes. Para un codigo que simula liquidos pienso que es importante que haya consistencia en el comportamiento de distintos liquidos, por eso imponer cierto comportamiento es importante.

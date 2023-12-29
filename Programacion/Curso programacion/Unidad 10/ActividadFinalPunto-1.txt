@@ -1,0 +1,65 @@
+clase publica Automovil
+
+    publico String modelo nuevaInstancia String()
+    publico Integer puertas nuevaInstancia Integer()
+    publico Float litrosMotor nuevaInstancia Float()
+    publico Float velMaxima nuevaInstancia Float()
+    privado Float precio nuevaInstancia Float()
+
+    metodo publico definirModelo (Modelo modelo)
+
+        String modelo nuevaInstancia String()
+
+        metodo definirModelo(string modeloNuevo)
+            modelo = modeloNuevo
+        fin metodo
+
+        metodo string devolverModelo()
+            retornar: modelo
+        fin metodo
+    
+    fin metodo
+
+    metodo publico definirPuertas (Puertas puertas)
+
+        Integer puertas nuevaInstancia Integer()
+
+        metodo definirPuertas(Integer puertasNuevo)
+            puertas = puertasNuevo
+        fin metodo
+
+        metodo Integer devolverPuertas()
+            retornar: puertas
+        fin metodo
+    
+    fin metodo
+
+    metodo publico definirLitrosMotor (LitrosMotor litrosMotor)
+
+        Float litrosMotor nuevaInstancia Float()
+
+        metodo definirLitrosMotor(float litrosMotorNuevo)
+            litrosMotor = litrosMotorNuevo
+        fin metodo
+
+        metodo float devolverLitrosMotor
+            retornar = litrosMotor
+        fin metodo
+
+    fin metodo
+
+    metodo publico definirVelMaxima (VelMaxima velMaxima)
+
+        Float velMaxima nuevaInstancia Float()
+
+        metodo definirVelMaxima(float velMaximaNuevo)
+            velMaxima = velMaximaNuevo
+        fin metodo
+
+        metodo float devolverVelMaxima
+            retornar = velMaxima
+        fin metodo
+
+    fin metodo
+
+fin clase

@@ -1,0 +1,52 @@
+clase Mamifero
+
+    //Atributos
+    publico Boolean genero nuevaInstancia Boolean()
+    publico String colorOjos nuevaInstancia String()
+    publico String colorPelo nuevaInstancia String()
+    publico Float tonoDePiel Float()
+
+    //Metodos
+    metodo publico reproduccion()
+    //...
+    fin metodo
+    metodo publico sistemaDigestivo()
+    //...
+    fin metodo
+    metodo privado calculoHerencia()
+    //...
+    fin metodo
+
+fin clase
+
+clase Hombre heredaDe Mamifero
+
+    //Atributos
+    publico Integer tiempoDeEmbarazo nuevaInstancia Integer()
+    publico Integer criasPromedioEmbarazo nuevaInstancia Integer()
+    publico Integer vidaPromedio nuevaInstancia Integer()
+    publico String raza nuevaInstancia String()
+
+    //Metodos
+    metodo privado comportamiento()
+    //... (distinto al perro)
+    fin metodo
+
+fin clase
+
+clase Perro heredaDe Mamifero
+
+    //Atributos
+    publico Integer tiempoDeEmbarazo nuevaInstancia Integer()
+    publico Integer criasPromedioEmbarazo nuevaInstancia Integer()
+    publico Integer vidaPromedio nuevaInstancia Integer()
+    publico String raza nuevaInstancia String()
+
+    //Metodos
+    metodo privado comportamiento()
+    //... (distinto al hombre)
+    fin metodo
+
+fin clase
+
+    

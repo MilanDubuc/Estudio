@@ -1,0 +1,38 @@
+clase publica abstracta Pasajero
+
+	//atributos
+	privado Float tarifa
+
+	//metodos
+	metodo publico Float tarifa
+		tarifa = 20.25
+		retornar: tarifa
+	fin metodo
+
+	metodo publico abstracto cobro(tarifa)
+
+fin clase
+
+clase publica Estudiante heredaDe Pasajero
+	
+	metodo publico cobro(tarifa)
+	//cobro del 50% de tarifa
+	fin metodo
+
+fin clase
+
+clase publica Mayor heredaDe Pasajero
+
+	metodo publico cobro(tarifa)
+	//cobro del 0% de tarifa
+	fin metodo
+
+fin clase
+
+clse publica Normal heredaDe Pasajero
+	
+	metodo publico cobro(tarifa)
+	//cobro del 100% del tarifa
+	fin metodo
+
+fin clase

@@ -1,0 +1,61 @@
+ 
+clase catalogo
+
+    //Metodos
+
+    //Acceso directo por el usuario
+    metodo publico mostrarCatalogo
+    //...
+    fin metodo
+    metodo publico filtrarCatalogo
+    //...
+    fin metodo
+    metodo publico mostrarPlanta
+    //...
+    fin metodo
+
+    //Administracion del catalogo
+    metodo privado NuevaPlanta
+    //...
+    fin metodo
+    metodo privado quitarPlanta
+    //...
+    fin metodo
+    metodo privado ordenarCatalogo
+    //...
+    fin metodo
+    metodo privado devolverCatalogo
+    //...
+    fin metodo
+
+fin clase
+ 
+clase Planta
+
+    //Atributos
+    String nombre nuevaInstancia String()
+    String clasificacion nuevaInstancia String()
+    String descripcion nuevaInstancia String()
+
+    //Metodos
+
+    metodo definirNombre(String nombre)
+    fin metodo
+    metodo String devolverNombre()
+    retornar: nombre
+    fin metodo
+
+    Metodo definirClasificacion(String clasificacion)
+    fin metodo
+    Metodo devolverClasificacion()
+    retornar: clasificacion
+    fin metodo
+
+    metodo definirDescripcion(String descripcion)
+    fin metodo
+    metodo devolverDescripcion()
+    retornar: descripcion
+    fin metodo
+
+fin clase
+

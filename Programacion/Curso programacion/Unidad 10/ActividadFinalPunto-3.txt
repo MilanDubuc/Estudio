@@ -1,0 +1,15 @@
+clase Escuela
+
+    metodo publico direccion ()
+    //...
+    fin metodo
+
+    metodo publico direccion(String calle)
+    //...
+    fin metodo
+
+    metodo publico direccion(Integer numero)
+    //...
+    fin metodo
+
+fin clase

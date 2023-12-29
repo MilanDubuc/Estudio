@@ -1,0 +1,22 @@
+String	-> Integer
+String	-> Float
+String 	-> Date
+String 	-> Boolean
+Integer	-> String
+Integer	-> Float
+Integer	-> Date
+Integer	-> Boolean
+Float 	-> String
+Float 	-> Integer
+Float 	-> Date		
+Float 	-> Boolean
+Date 	-> String
+Date 	-> Integer
+Date 	-> Float
+Date 	-> Boolean
+Boolean	-> String
+Boolean	-> Integer
+Boolean	-> Float
+Boolean	-> Date
+
+Pienso que todos son compatibles y tiene sentido castearlos si se restringen a caracteres que el otro tipo de dato pueda interpretar.

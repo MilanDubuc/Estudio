@@ -1,0 +1,14 @@
+clase publica Persona
+
+    metodo publico String mostrarNombre(String nombre)
+    // ...
+    fin metodo
+
+    metodo publico String mostrarPadre(String nombrePadre)
+    // ...
+    fin metodo
+    metodo publico String mostrarPadre(String nombrePadre, string nombreMadre)
+    // ...
+    fin metodo
+
+fin clase
