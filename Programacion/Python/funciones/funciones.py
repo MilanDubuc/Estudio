@@ -1,4 +1,4 @@
-#built ins de python:
+#algunas built ins de python:
 
 # max(lista), devuelve el numero mas alto de la lista
 # min(lista), "" el mas chico
@@ -9,5 +9,5 @@
 # int() ; ""
 # etc.
 
-
+# all() ; analiza un iterable y devuelve false si contiene 0, none, false, etc
 
