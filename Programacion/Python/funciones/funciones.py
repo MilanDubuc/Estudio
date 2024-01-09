@@ -11,3 +11,6 @@
 
 # all() ; analiza un iterable y devuelve false si contiene 0, none, false, etc
 
+#filter(filtro, filtree) ; itera filtree, lo pasa por filtro y devuelve un objete solo con los que devuelven true en filtro
+#   filtro es una funcion que devuelve True o false
+#   como filter() devuelve un objeto, para poder verlo en orma de lista se usa la uncion list(objeto)
