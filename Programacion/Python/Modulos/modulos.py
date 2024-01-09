@@ -26,4 +26,4 @@ luego no hay que poner modulo.funciones.saludo, solo:
 saludo("pedro")
 (es como si la funcion estuviera definida en el mismo archivo, no hay que hacer referencia al modulo)
 """
-#pedo
+#pedo2
