@@ -26,4 +26,19 @@ luego no hay que poner modulo.funciones.saludo, solo:
 saludo("pedro")
 (es como si la funcion estuviera definida en el mismo archivo, no hay que hacer referencia al modulo)
 """
-#pedo2
+
+#si el modulo esta en una carpeta mas arriba que el archivo:
+#python busca en sys.path cada vez que importo algo. Si lo que quiero importar no esta en sys.path simplemente lo tengo que agregar:
+"""
+import sys
+sys.path.append("Aca va el directorio de lo que queremos importar(c\usuario\etc)")
+"""
+
+#Paquetes:
+"""
+-un paquete es una carpeta con varios modulos
+-la carpeta paquete tiene que tener un archivo llamado __init__.py para que python lo interprete como paquete
+-luego para importar:
+import paquete.modulo_func_paquete
+"""
+
